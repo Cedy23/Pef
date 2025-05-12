@@ -1,0 +1,55 @@
+/* Style général pour le corps */
+body {
+    background-color: #f8f9fa; /* Couleur de fond claire */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Centrer la carte sur la page */
+.card {
+    border-radius: 10px; /* Coins arrondis */
+    border: none; /* Supprimer les bordures */
+}
+
+/* Style pour l'en-tête de la carte */
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Style pour les champs de formulaire */
+.form-control {
+    border-radius: 5px; /* Coins légèrement arrondis */
+    border: 1px solid #ced4da; /* Bordure légère */
+    box-shadow: none; /* Supprimer l'ombre */
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Couleur de bordure au focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Ombre au focus */
+}
+
+/* Style pour le bouton */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Couleur au survol */
+    border-color: #0056b3;
+}
+
+/* Marges supplémentaires pour le formulaire */
+.card-body form {
+    margin-top: 10px;
+}
+
+/* Style pour les étiquettes */
+.form-label {
+    font-weight: bold;
+    color: #495057;
+}
+
